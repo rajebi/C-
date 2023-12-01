@@ -1,0 +1,10 @@
+^C:\USERS\RAJEB\ONEDRIVE\RAJ\LEARNING\GITHUB\CPP\MQTTCLIENT\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/rajeb/OneDrive/Raj/Learning/GitHub/CPP/MQTTClient/src -BC:/Users/rajeb/OneDrive/Raj/Learning/GitHub/CPP/MQTTClient/build --check-stamp-file C:/Users/rajeb/OneDrive/Raj/Learning/GitHub/CPP/MQTTClient/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

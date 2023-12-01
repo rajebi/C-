@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rajeb\OneDrive\Raj\Learning\GitHub\CPP\MQTTClient\src\MQTTClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rajeb\OneDrive\Raj\Learning\GitHub\CPP\MQTTClient\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F53E1937-5E06-37A0-8230-BD7960CE31F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
